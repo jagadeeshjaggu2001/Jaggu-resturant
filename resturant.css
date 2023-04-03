@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+    background-image: url("https://cdn.theatlantic.com/thumbor/p8NhRhW9ECOyfDYYFsWNmg96uE8=/0x68:1024x644/960x540/media/img/mt/2014/03/3516216396_e8f9db0f5b_b/original.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+   
+}
+.main{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.nav{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.filter-btn{
+    background-color: rgb(109, 221, 109);
+}
+.section-center{
+    width: 80%;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    /* border: 1px solid red; */
+
+}
+
+.item-info header{
+    border-bottom: 1px solid rgb(207, 218, 218);
+}
+.burg{
+    width: 70px;
+    height: 50px;
+    border: 1px solid rgb(201, 76, 76);
+    border-radius: 0.1rem;
+
+}
+.menuitem{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item-info{
+    padding-left: 1rem;
+}
+p{
+    font-size: 0.4rem;
+    color: white;
+}
+h3{
+    font-size: 0.6rem;
+    color: white;
+}
+.price{
+    font-size: 0.8rem;
+    color: rgb(16, 190, 16);
+    padding-left: 1.5rem;
+}
+h2{
+    color: white;
+}
